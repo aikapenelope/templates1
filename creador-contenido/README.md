@@ -1,33 +1,27 @@
 # Creador de Contenido (Premium)
 
-Crea posts, calendarios editoriales, hilos virales y copywriting persuasivo para redes sociales.
-
-## Cómo usar
-
-1. En AikaOS: **Create Worker** > **Select Folder** > selecciona esta carpeta
-2. Empieza a chatear
-
-## Qué puedes pedirle
-
-- "Crea un post de LinkedIn sobre productividad remota"
-- "Genera un calendario editorial de 2 semanas para Instagram de una cafetería"
-- "Adapta este post de LinkedIn para Twitter, Instagram y TikTok"
-- "Escribe un copy de venta para un curso online de diseño UX"
-- "Crea un hilo de Twitter sobre las tendencias de IA en LATAM"
+Content strategy + copywriting persuasivo + creación nativa para cada plataforma.
 
 ## Skills (3)
-- **contenido-redes** — Posts nativos por plataforma, hooks, hashtags, horarios LATAM
-- **calendario-editorial** — Planificación con pilares de contenido, mix 70/20/10, batching
-- **copywriting-persuasivo** — Frameworks AIDA, PAS, BAB, principios de Cialdini
+- **contenido-redes** — Reglas nativas por plataforma (X, LinkedIn, Instagram, TikTok, Blog), fórmulas de gancho, horarios LATAM, adaptación cultural
+- **calendario-editorial** — Pilares de contenido, frecuencia realista, reutilización (1 pieza → 5), fechas clave LATAM 2025-2026, métricas semanales
+- **copywriting-persuasivo** — Frameworks AIDA/PAS/BAB/4U, principios de Cialdini, reglas de buen copy, adaptación LATAM
 
 ## Commands (5)
-- `crear-post` — Post nativo para cualquier red social
-- `generar-calendario` — Calendario editorial de 1-4 semanas
-- `adaptar-contenido` — Adapta un post a múltiples plataformas
-- `escribir-copy` — Copy de venta con framework persuasivo
-- `crear-hilo` — Hilo de Twitter/X con estructura viral
+- `crear-post` — Post nativo para cualquier plataforma con framework, variantes y visual
+- `generar-calendario` — Calendario editorial completo con borradores listos
+- `adaptar-contenido` — Un contenido → versiones nativas para 6 plataformas
+- `escribir-copy` — Copy persuasivo para landing pages, ads y emails de venta
+- `crear-hilo` — Hilo viral para X/Twitter con estructura probada
 
-## MCPs recomendados (opcionales)
-- **Twitter/X** (`@enescinar/twitter-mcp`) — Publicar directamente
-- **Brave Search** (`@anthropic/brave-search-mcp`) — Investigar tendencias
-- **Filesystem** (`@anthropic/filesystem-mcp`) — Guardar calendarios (ya incluido)
+## MCPs recomendados
+- **Twitter/X** (`@enescinar/twitter-mcp`) — Publicar directamente en X
+- **Brave Search** (`@anthropic/brave-search-mcp`) — Investigar tendencias y hashtags
+- **Filesystem** (`@anthropic/filesystem-mcp`) — Guardar calendarios y borradores
+
+## Cómo probar
+1. Copia skills y commands a tu `.opencode/`
+2. Prueba: "Crea un post de LinkedIn sobre por qué las PyMEs en LATAM necesitan IA"
+3. Prueba: "Genera un calendario editorial para mi agencia de marketing, 2 semanas, LinkedIn + Instagram"
+4. Prueba: "Escribe el copy para una landing page de un curso de Excel para contadores"
+5. Prueba: "Adapta este artículo a X, LinkedIn e Instagram" + pega un artículo
